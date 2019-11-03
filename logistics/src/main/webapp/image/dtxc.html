@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+    <style type="text/css">
+        body, html, #container {
+            height: 100%;
+            margin: 0px;
+            font: 12px Arial;
+        }
+
+        .taiwan {
+            border: solid 1px red;
+            color: red;
+            float: left;
+            width: 50px;
+            background-color: rgba(255, 0, 0, 0.1)
+        }
+    </style>
+    <title>Marker example</title>
+</head>
+<body>
+<div id="container" tabindex="0"></div>
+<script src="https://webapi.amap.com/js/marker.js"></script>
+<script src="https://webapi.amap.com/maps?v=1.4.14&key=4df2ef1b5bc8e355279425166fbe866c"></script>
+<script src="../image/jquery.js"></script>
+<script type="text/javascript" src='https://a.amap.com/jsapi_demos/static/citys.js'></script>
+<script type="text/javascript">
+
+
+    var map = new AMap.Map('container', {resizeEnable: true, zoom: 8});
+    var markers = []; //province见Demo引用的JS文件
+    var marker;
+    var DataObje = [];
+    map.on('click', showInfoClick);
+
+    function showInfoClick(e) {
+        var d = e.lnglat.getLat().toString().substring(0, 7);
+        d = d.substring(0, 6) + (parseInt(d.substring(6, 7)) - 1);
+        for (var i = 0; i < DataObje.length; i++) {
+            if (DataObje[i].addIp.split(',')[0].substring(0, 8) ==
+                e.lnglat.getLng().toString().substring(0, 8) && DataObje[i].addIp.split(',')[1].substring(0, 7) ==
+                e.lnglat.getLat().toString().substring(0, 7) || DataObje[i].addIp.split(',')[1].substring(0, 7) ==
+                d.substring(0, 7)) {
+                var bd = confirm("你好！请问是否接单？\u000d出发地点：" + DataObje[i].addName + "\u000d目的地为：" + DataObje[i].endName + "\u000d价格为：" + DataObje[i].price)
+                if (bd && DataObje[i].addIp == 5) {
+                    console.log(window.location.href.split("=")[1]);
+                   $.get('http://47.100.245.30:8080/image/locations/updateSet?oId=' + DataObje[i].peiYong + '&dId=' +
+                        window.location.href.split("=")[1] + '&oState=运输中', (function (res) {
+                                if (res.code === 200) {
+                                    $.get('http://47.100.245.30:8080/image/locations/updatetype?id=' + DataObje[i].id + '&type=2',
+                                        (function (res) {
+                                            if (res.code === 200) {
+                                                bd = confirm("是否调转导航？");
+                                                if(bd){
+                                                    AMap.plugin(["AMap.Driving"], function() {
+                                                        var drivingOption = {
+                                                            policy: AMap.DrivingPolicy.LEAST_TIME,
+                                                            map: map
+                                                        };
+                                                        var driving = new AMap.Driving(drivingOption); //构造驾车导航类
+                                                        //根据起终点坐标规划驾车路线
+                                                        driving.search([{
+                                                            keyword: DataObje[i].addName
+                                                        }, {
+                                                            keyword: DataObje[i].endName
+                                                        }], function(status, result) {
+                                                            driving.searchOnAMAP({
+                                                                origin: result.origin,
+                                                                destination: result.destination
+                                                            });
+                                                            window.location.reload();
+                                                        });
+                                                    });
+                                                }else{
+                                                    window.location.reload();
+                                                }
+                                            } else {
+                                                alert("接单失败！");
+                                                $.get('http://47.100.245.30:8080/waybill/updateSet?oId=' + DataObje[i].peiYong + '&dId=0&oState=待运输');
+                                            }
+                                        }))
+                                }
+                                else {
+                                    alert("接单失败！");
+                                }
+                            }
+                        )
+                    )
+                    return;
+                }
+            }
+        }
+    }
+
+    $(function () {
+        getDate();
+
+        var style = [{
+            url: 'https://a.amap.com/jsapi_demos/static/images/mass0.png',
+            anchor: new AMap.Pixel(6, 6),
+            size: new AMap.Size(11, 11)
+        }, {
+            url: 'https://a.amap.com/jsapi_demos/static/images/mass1.png',
+            anchor: new AMap.Pixel(4, 4),
+            size: new AMap.Size(7, 7)
+        }, {
+            url: 'https://a.amap.com/jsapi_demos/static/images/mass2.png',
+            anchor: new AMap.Pixel(3, 3),
+            size: new AMap.Size(5, 5)
+        }
+        ];
+
+        var mass = new AMap.MassMarks(citys, {
+            opacity: 0.8,
+            zIndex: 111,
+            cursor: 'pointer',
+            style: style
+        });
+
+        var marker = new AMap.Marker({content: ' ', map: map});
+
+        mass.on('mouseover', function (e) {
+
+            marker.setPosition(e.data.lnglat);
+            marker.setLabel({content: e.data.name})
+        });
+
+        mass.setMap(map);
+
+        function setStyle(multiIcon) {
+            if (multiIcon) {
+                mass.setStyle(style);
+            } else {
+                mass.setStyle(style[2]);
+            }
+        }
+    })
+
+    function getDate() {
+        $.get("http://47.100.245.30:8080/image/locations/selectAll", function (res) {
+            if (res.code == 200 && res.data.length > 0) {
+                DataObje = res.data;
+                randadd();
+            }
+        })
+    }
+    function randadd() {
+        for (var i = 0; i < DataObje.length; i += 1) {
+            if (DataObje[i].type != 5) {
+                //图标
+                var icon = new AMap.Icon({
+                    image: 'https://a.amap.com/jsapi_demos/static/images/green.png',
+                    size: new AMap.Size(36, 36)
+                });
+                marker = new AMap.Marker({
+                    icon: icon,
+                    position: DataObje[i].addIp.split(','),
+                    offset: new AMap.Pixel(-12,-12),
+                    zIndex: 101,
+                    clickable:false,
+                    bubble:false,
+                    title: DataObje[i].addName,
+                    map: map
+                });
+            } else {
+                marker = new AMap.Marker({
+                    position: DataObje[i].addIp.split(','),
+                    title: DataObje[i].addName,
+                    clickable:true,
+                    bubble:true,
+                    map: map
+                });
+                if (DataObje[i].type === 2) {
+                    var content= "<div class = 'taiwan'>"+DataObje[i].addName.substring(0,2)+"</div>";
+                    baodao = new AMap.Marker({
+                        content: content,
+                        position: DataObje[i].addIp.split(','),
+                        title: DataObje[i].addName,
+                        offset: new AMap.Pixel(0,0),
+                        map: map
+                    });
+                }
+            }
+            markers.push(marker);
+        }
+    }
+</script>
+<script type="text/javascript" src="https://webapi.amap.com/demos/js/liteToolbar.js"></script>
+</body>
+</html>

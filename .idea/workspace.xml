@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="258388ea-992e-4e4a-b8ff-666a6214ba72" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/logistics/.idea/dictionaries/huang.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/controller/AdminController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/controller/CollectionFeeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/controller/DriverInformationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/controller/EmployeeInformationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/controller/EvaluationInformationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/controller/FinanceInfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/controller/NoticeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/controller/OrderInformationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/controller/SCollectController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/controller/ShipperInformationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/controller/VehicleInfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/controller/VehicleTypeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/dao/AdminMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/dao/CollectionFeeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/dao/DriverInformationMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/dao/EmployeeInformationMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/dao/EvaluationInformationMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/dao/FinanceInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/dao/NoticeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/dao/OrderInformationMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/dao/SCollectMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/dao/ShipperInformationMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/dao/VehicleInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/dao/VehicleTypeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/entity/Admin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/entity/CollectionFee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/entity/DriverInformation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/entity/EmployeeInformation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/entity/EvaluationInformation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/entity/FinanceInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/entity/Notice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/entity/OrderInformation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/entity/SCollect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/entity/ShipperInformation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/entity/VehicleInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/entity/VehicleType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/service/AdminService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/service/CollectionFeeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/service/DriverInformationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/service/EmployeeInformationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/service/EvaluationInformationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/service/FinanceInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/service/NoticeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/service/OrderInformationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/service/SCollectService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/service/ShipperInformationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/service/VehicleInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/service/VehicleTypeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/service/impl/AdminServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/service/impl/CollectionFeeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/service/impl/DriverInformationServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/service/impl/EmployeeInformationServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/service/impl/EvaluationInformationServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/service/impl/FinanceInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/service/impl/NoticeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/service/impl/OrderInformationServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/service/impl/SCollectServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/service/impl/ShipperInformationServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/service/impl/VehicleInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/service/impl/VehicleTypeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/java/com/cchong/logistics/util/Result.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/resources/generatorConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/resources/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/resources/mapper/AdminMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/resources/mapper/CollectionFeeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/resources/mapper/DriverInformationMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/resources/mapper/EmployeeInformationMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/resources/mapper/EvaluationInformationMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/resources/mapper/FinanceInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/resources/mapper/NoticeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/resources/mapper/OrderInformationMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/resources/mapper/SCollectMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/resources/mapper/ShipperInformationMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/resources/mapper/VehicleInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/resources/mapper/VehicleTypeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/resources/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/resources/spring-web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/resources/spring/spring-dao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/src/main/resources/spring/spring-service.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/controller/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/controller/CollectionFeeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/controller/CollectionFeeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/controller/DriverInformationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/controller/DriverInformationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/controller/EmployeeInformationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/controller/EmployeeInformationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/controller/EvaluationInformationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/controller/EvaluationInformationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/controller/FinanceInfoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/controller/FinanceInfoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/controller/NoticeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/controller/NoticeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/controller/OrderInformationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/controller/OrderInformationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/controller/SCollectController.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/controller/SCollectController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/controller/ShipperInformationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/controller/ShipperInformationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/controller/VehicleInfoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/controller/VehicleTypeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/controller/VehicleTypeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/dao/DriverInformationMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/dao/DriverInformationMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/dao/EvaluationInformationMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/dao/EvaluationInformationMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/dao/FinanceInfoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/dao/FinanceInfoMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/dao/OrderInformationMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/dao/OrderInformationMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/dao/ShipperInformationMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/dao/ShipperInformationMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/dao/VehicleInfoMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/dao/VehicleTypeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/dao/VehicleTypeMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/entity/DriverInformation.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/entity/DriverInformation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/entity/EmployeeInformation.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/entity/EmployeeInformation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/entity/EvaluationInformation.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/entity/EvaluationInformation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/entity/FinanceInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/entity/FinanceInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/entity/Notice.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/entity/Notice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/entity/OrderInformation.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/entity/OrderInformation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/entity/ShipperInformation.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/entity/ShipperInformation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/entity/VehicleInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/entity/VehicleType.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/entity/VehicleType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/service/DriverInformationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/service/DriverInformationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/service/EvaluationInformationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/service/EvaluationInformationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/service/FinanceInfoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/service/FinanceInfoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/service/OrderInformationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/service/OrderInformationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/service/ShipperInformationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/service/ShipperInformationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/service/VehicleInfoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/service/VehicleTypeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/service/VehicleTypeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/service/impl/DriverInformationServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/service/impl/DriverInformationServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/service/impl/EvaluationInformationServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/service/impl/EvaluationInformationServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/service/impl/FinanceInfoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/service/impl/FinanceInfoServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/service/impl/OrderInformationServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/service/impl/OrderInformationServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/service/impl/ShipperInformationServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/service/impl/ShipperInformationServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/service/impl/VehicleInfoServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/service/impl/VehicleTypeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/classes/com/cchong/logistics/service/impl/VehicleTypeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/mapper/AdminMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/classes/mapper/AdminMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/mapper/CollectionFeeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/classes/mapper/CollectionFeeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/mapper/DriverInformationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/classes/mapper/DriverInformationMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/mapper/EmployeeInformationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/classes/mapper/EmployeeInformationMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/mapper/EvaluationInformationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/classes/mapper/EvaluationInformationMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/mapper/FinanceInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/classes/mapper/FinanceInfoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/mapper/NoticeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/classes/mapper/NoticeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/mapper/OrderInformationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/classes/mapper/OrderInformationMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/mapper/SCollectMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/classes/mapper/SCollectMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/mapper/ShipperInformationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/classes/mapper/ShipperInformationMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/mapper/VehicleInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/mapper/VehicleTypeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/classes/mapper/VehicleTypeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/classes/spring-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/classes/spring-web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/controller/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/controller/CollectionFeeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/controller/CollectionFeeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/controller/DriverInformationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/controller/DriverInformationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/controller/EmployeeInformationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/controller/EmployeeInformationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/controller/EvaluationInformationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/controller/EvaluationInformationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/controller/FinanceInfoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/controller/FinanceInfoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/controller/NoticeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/controller/NoticeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/controller/OrderInformationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/controller/OrderInformationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/controller/SCollectController.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/controller/SCollectController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/controller/ShipperInformationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/controller/ShipperInformationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/controller/VehicleInfoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/controller/VehicleTypeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/controller/VehicleTypeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/dao/DriverInformationMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/dao/DriverInformationMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/dao/EvaluationInformationMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/dao/EvaluationInformationMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/dao/FinanceInfoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/dao/FinanceInfoMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/dao/OrderInformationMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/dao/OrderInformationMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/dao/ShipperInformationMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/dao/ShipperInformationMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/dao/VehicleInfoMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/dao/VehicleTypeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/dao/VehicleTypeMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/entity/DriverInformation.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/entity/DriverInformation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/entity/EmployeeInformation.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/entity/EmployeeInformation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/entity/EvaluationInformation.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/entity/EvaluationInformation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/entity/FinanceInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/entity/FinanceInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/entity/Notice.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/entity/Notice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/entity/OrderInformation.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/entity/OrderInformation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/entity/ShipperInformation.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/entity/ShipperInformation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/entity/VehicleInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/entity/VehicleType.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/entity/VehicleType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/service/DriverInformationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/service/DriverInformationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/service/EvaluationInformationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/service/EvaluationInformationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/service/FinanceInfoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/service/FinanceInfoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/service/OrderInformationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/service/OrderInformationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/service/ShipperInformationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/service/ShipperInformationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/service/VehicleInfoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/service/VehicleTypeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/service/VehicleTypeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/service/impl/DriverInformationServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/service/impl/DriverInformationServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/service/impl/EvaluationInformationServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/service/impl/EvaluationInformationServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/service/impl/FinanceInfoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/service/impl/FinanceInfoServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/service/impl/OrderInformationServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/service/impl/OrderInformationServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/service/impl/ShipperInformationServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/service/impl/ShipperInformationServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/service/impl/VehicleInfoServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/service/impl/VehicleTypeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/com/cchong/logistics/service/impl/VehicleTypeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/mapper/AdminMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/mapper/AdminMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/mapper/CollectionFeeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/mapper/CollectionFeeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/mapper/DriverInformationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/mapper/DriverInformationMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/mapper/EmployeeInformationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/mapper/EmployeeInformationMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/mapper/EvaluationInformationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/mapper/EvaluationInformationMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/mapper/FinanceInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/mapper/FinanceInfoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/mapper/NoticeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/mapper/NoticeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/mapper/OrderInformationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/mapper/OrderInformationMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/mapper/SCollectMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/mapper/SCollectMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/mapper/ShipperInformationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/mapper/ShipperInformationMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/mapper/VehicleInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/mapper/VehicleTypeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/mapper/VehicleTypeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/spring-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/logistics/target/contact/WEB-INF/classes/spring-web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/jxwl/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../vue/jxwl/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/jxwl/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../vue/jxwl/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/jxwl/src/adminindex.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../vue/jxwl/src/adminindex.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/jxwl/src/components/admin/select.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../vue/jxwl/src/components/admin/select.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/jxwl/src/components/collectionFee/select.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../vue/jxwl/src/components/collectionFee/select.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/jxwl/src/components/driverInformation/select.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../vue/jxwl/src/components/driverInformation/select.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/jxwl/src/components/employeeInformation/select.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../vue/jxwl/src/components/employeeInformation/select.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/jxwl/src/components/evaluationInformation/select.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../vue/jxwl/src/components/evaluationInformation/select.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/jxwl/src/components/notice/select.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../vue/jxwl/src/components/notice/select.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/jxwl/src/components/scollect/select.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../vue/jxwl/src/components/scollect/select.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/jxwl/src/components/shipperInformation/select.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../vue/jxwl/src/components/shipperInformation/select.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/jxwl/src/components/vehicle/select.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../vue/jxwl/src/components/vehicle/select.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/jxwl/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../vue/jxwl/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/jxwl/src/main.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../vue/jxwl/src/main.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/jxwl/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/../vue/jxwl/src/router.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="856733477">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="logistics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="logistics" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="logistics" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/logistics" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="258388ea-992e-4e4a-b8ff-666a6214ba72" name="Default Changelist" comment="" />
+      <created>1555389233989</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555389233989</updated>
+      <workItem from="1555389236539" duration="42000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="42000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="JRebel" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="JRebel Console" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
